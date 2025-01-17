@@ -3,7 +3,7 @@
 	<name>Prisoners Can Read</name>
 	<packageId>divineDerivative.PrisonerReading</packageId>
 	<author>divineDerivative</author>
-	<!--<url></url>-->
+	<url>https://github.com/divineDerivative/PrisonerReading</url>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
