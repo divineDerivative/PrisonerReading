@@ -59,7 +59,7 @@ namespace PrisonerReading
             //Trying real hard to make sure I only do this for prisoners reading books.
             if (driver != null && t is Book book)
             {
-                if (putItBack && carrier.IsPrisonerOfColony)
+                if (putItBack && (carrier?.IsPrisonerOfColony ?? false))
                 {
                     LogUtil.Message($"Changing faction from {faction} to {carrier.HostFaction}", true);
                     faction = carrier.HostFaction;
