@@ -48,11 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.5.4297</Version>
+    <PackageReference Include="Lib.Harmony" Version="2.3.*">
+      <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-    <PackageReference Include="Lib.Harmony">
-      <Version>2.3.3</Version>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.*-*">
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
